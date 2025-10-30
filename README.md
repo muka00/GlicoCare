@@ -1,4 +1,3 @@
-![logo_GlicoCare](https://user-images.githubusercontent.com/37356058/131255528-265f5bca-609f-45e8-a574-b77b8d542381.png#vitrinedev)
 
 <hr>
 
@@ -12,8 +11,6 @@
 
 - [Funcionalidades](#funcionalidades)
 
-- [Aplicação](#aplicação)
-
 - [Ferramentas utilizadas](#ferramentas-utilizadas)
 
 - [Acesso ao projeto](#acesso-ao-projeto)
@@ -24,57 +21,96 @@
 
 ## Descrição do projeto 
 
-<p align="justify">
- Projeto em desenvolvimento para disciplina Instrumentação Biomédica II do curso de Engenharia Biomédica. O GlicoCare é um sistema de telemonitoramento domiciliar para a atenção especializada de pessoas acometidas por diabetes mellitus.
+<p align="justify"> O site <strong>ONG Flor do Saber</strong> foi criado como parte de uma atividade acadêmica no curso técnico, com o intuito de simular uma plataforma digital que promove a <strong>inclusão social e digital</strong>, aproximando a comunidade dos projetos e ações sociais da ONG.
 
-O sistema permitirá o monitoramento diário, contínuo e remoto do nível de glicose no sangue (glicemia), possibilitando que familiares, cuidadores, profissionais da saúde ou o próprio paciente acompanhem o estado clínico do mesmo.
+O projeto representa uma organização fictícia dedicada a oferecer oportunidades educacionais e apoio social, divulgando projetos, campanhas e convites ao voluntariado.
 
-![Descrição do projeto GlicoCare, onde se tem um paciente medindo glicose com um glicosímetro, conectado via Bluetooth ao aplicativo que o profissional da saúde tem acesso.](https://user-images.githubusercontent.com/37356058/132422764-5a4e5300-7b04-4411-9126-387a445bc627.png)
-</p>
+</p> <div align="center">
+
+</div>
 
 ## Funcionalidades
 
-:heavy_check_mark: `Funcionalidade 1:` Realizar cadastro dos usuários, podendo ser paciente ou profissional de saúde.
+:heavy_check_mark: Cadastro de Voluntários:
+Permite o registro de novos voluntários, armazenando informações básicas de contato e disponibilidade para participação em projetos sociais.
 
-:heavy_check_mark: `Funcionalidade 2:` Armazenar dados do usuário, como glicemia, atividade física, alimentação, medicação, administração de insulina e peso no banco de dados na Cloud Firestore.
+:heavy_check_mark: Divulgação de Projetos:
+Aba dedicada à apresentação das ações e campanhas promovidas pela ONG, com detalhes sobre objetivos e resultados esperados.
 
-:heavy_check_mark: `Funcionalidade 3:` Plotar gráfico com histórico dos níveis glicêmicos do paciente.
+:heavy_check_mark: Doações e Transparência Financeira:
+Seção destinada à realização de doações e visualização pública dos gastos da ONG, garantindo transparência e credibilidade.
 
-:heavy_check_mark: `Funcionalidade 4:` Chat com entre o paciente e profissional da saúde.
+:heavy_check_mark: Blog de Atividades:
+Espaço para publicação de notícias, eventos e relatos de voluntários sobre suas experiências em projetos sociais.
 
-## Aplicação
+:heavy_check_mark: Contato Direto:
+Página com informações de telefone, e-mail e redes sociais para comunicação direta com a equipe da ONG.
 
-<div align="center">
+:heavy_check_mark: Acessibilidade Avançada:
 
-![Android Emulator](https://user-images.githubusercontent.com/37356058/135944390-ec96d4ec-ee43-4db9-882f-89be66aad23a.gif)
+Modo Escuro e Modo Alto Contraste;
 
-  </div>
+Navegação completa por teclado;
 
-###
+Estrutura semântica com header, main, nav e footer para leitores de tela.
+
+:heavy_check_mark: Formulário de Contato Validado:
+Validação em tempo real via JavaScript, garantindo envio de informações corretas.
+
+:heavy_check_mark: Design Responsivo:
+Layout adaptável a diferentes tamanhos de tela (desktop, tablet e dispositivos móveis).
+
+
 
 ## Ferramentas utilizadas
 
-<a href="https://www.java.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> 
-
-<a href="https://developer.android.com/studio" target="_blank"> <img src="https://developer.android.com/images/logos/android.svg" alt="androidStudio" width="40" height="40"/> </a> <a href="https://firebase.google.com/?hl=pt" target="_blank"> <img src="https://www.gstatic.com/mobilesdk/160503_mobilesdk/logo/2x/firebase_96dp.png" alt="firebase" width="40" height="40"/> </a>
-
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/250px-HTML5_logo_and_wordmark.svg.png" alt="html5" width="40" height="40"/> </a>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank"> <img src="https://th.bing.com/th/id/OIP.tAvAD5lCtDJSjywplxd37QHaEo?w=281&h=180&c=7&r=0&o=7&pid=1.7&rm=3" width="40" height="40"/> </a>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank"> <img src="https://th.bing.com/th/id/ODF.w7IaAaWhPYmAcSNIT_w_KA?w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2" alt="javascript" width="40" height="40"/> </a>
+<a href="https://git-scm.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git" width="40" height="40"/> </a>
+<a href="https://github.com/" target="_blank"> <img src="https://th.bing.com/th/id/ODF.bYAvaN8MCaSZfP0o7q_Z_w?w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2" alt="github" width="40" height="40"/> </a>
 ###
 
 ## Acesso ao projeto
 
-Você pode [acessar o código fonte do projeto](https://github.com/camilafernanda/GlicoCare) ou [baixá-lo](https://github.com/camilafernanda/GlicoCare/archive/refs/heads/main.zip).
+Você pode [acessar o código fonte do projeto](https://github.com/muka00/site-Ong-Flor-do-Saber.git) ou [baixá-lo](https://github.com/muka00/site-Ong-Flor-do-Saber.git/archive/refs/heads/main.zip).
 
 ## Abrir e rodar o projeto
 
-Após baixar o projeto, você pode abrir com o `Android Studio`. Para isso, na tela de launcher clique em:
+<p>Depois que você baixar o projeto, é <strong>bem fácil abrir o site</strong>.<br>
+Siga o passo a passo abaixo:</p>
 
-- `Open an Existing Project` (ou alguma opção similar);
-- Procure o local onde o projeto está e o selecione (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo);
-- Por fim clique em `OK`.
+<ol>
+  <li><strong>Baixe o projeto:</strong><br>
+    Clique neste link:<br>
+    👉 <a href="https://github.com/muka00/site-Ong-Flor-do-Saber/archive/refs/heads/main.zip" target="_blank">Baixar o projeto em ZIP</a><br>
+    O arquivo vai aparecer na sua pasta de <strong>Downloads</strong>.
+  </li>
+  <br>
 
-O `Android Studio` deve executar algumas tasks do *Gradle* para configurar o projeto, aguarde até finalizar. Ao finalizar as tasks, você pode executar o App 🏆 
+  <li><strong>Extraia o arquivo ZIP:</strong><br>
+    Clique com o <strong>botão direito</strong> no arquivo baixado e escolha <strong>“Extrair tudo”</strong>.<br>
+    Vai aparecer uma <strong>nova pasta</strong> com o nome <code>site-Ong-Flor-do-Saber</code>.
+  </li>
+  <br>
+
+  <li><strong>Encontre o site:</strong><br>
+    Dentro dessa nova pasta, procure o arquivo chamado:<br>
+    <code>index.html</code>
+  </li>
+  <br>
+
+  <li><strong>Abra o site:</strong><br>
+    Clique <strong>duas vezes</strong> no arquivo <code>index.html</code>.<br>
+    O site vai abrir automaticamente no seu navegador (Chrome, Edge, Firefox, etc.).
+  </li>
+  <br>
+
+  <li><strong>Pronto!</strong><br>
+    Agora você já pode <strong>navegar pelo site</strong>, testar os botões, mudar o modo escuro ou claro e explorar as páginas da <strong>ONG Flor do Saber 🌻</strong>.
+  </li>
+</ol>
 
 ## Desenvolvedores
 
-| [<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Camila Fernanda Alves</sub>](https://github.com/camilafernanda) |  [<img src="https://avatars.githubusercontent.com/u/38091359?v=4" width=115><br><sub>Clóvis Ribeiro Júnior</sub>](https://github.com/crovim)  |
-| :---: | :---: 
+| [<img src="https://avatars.githubusercontent.com/u/212030742?v=4" width=115><br><sub>Samuel Fernandes</sub>](https://github.com/muka00) 
